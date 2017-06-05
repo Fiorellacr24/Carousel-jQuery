@@ -14,7 +14,7 @@
 	top: 50%;
 	font-size: 4rem;
 	border: none;
-	background-color: white;
+	background-color: transparent;
 	cursor: pointer;
 }
 .btn-left{
@@ -31,7 +31,7 @@
 	display: inline-block;
 	margin-right: -4px;
 	vertical-align: top;
-	background-size: 100%;
+	background-size: 50%;
 	background-repeat: no-repeat;
 	background-position: 20%;
 }

@@ -12,8 +12,8 @@ $(document).on('ready', function(){
 
 function defineSizes(){
 	$('.container .slide').each(function(i, e){
-		$(e).css({
-			'background-image': "url("+$(e).data("background")+")",
+        $(e).css({
+			//'background-image': "url("+$(e).data("background")+")",
 			'height': ($('.container').width() * 0.45)+'px',
 			'width': ($('.container').width())+'px'
 		});
@@ -23,7 +23,7 @@ function defineSizes(){
 function moveSlider(direccion){
 	var limite = $('.container .slide').length;
 	
-	indicador = (direccion == 'right') ? indicador + 1 : indicador - 1; 
+	indicador = (direccion == 'btn-right') ? indicador + 1 : indicador - 1; 
 	indicador = (indicador >= limite) ? 0 : indicador; 
 	indicador = (indicador < 0) ? limite - 1 : indicador; 
 	
