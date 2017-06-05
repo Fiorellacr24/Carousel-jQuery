@@ -34,5 +34,5 @@ function moveSlider(direccion){
 
 var autoSlide = setInterval(autoshow, 5000);
   function autoshow(){
-    moveSlider(1);
+    moveSlider('left');
   }
