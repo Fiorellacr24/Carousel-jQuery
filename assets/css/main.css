@@ -3,3 +3,35 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+.container{
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.icon-circle-left, .icon-circle-right{
+	position: absolute;
+	top: 50%;
+	font-size: 4rem;
+	border: none;
+	background-color: white;
+	cursor: pointer;
+}
+.btn-left{
+	left: 0;
+}
+.btn-right{
+	right: 0;
+}
+/* Ancho infinito */
+.container, .slide-container{
+	white-space: nowrap;
+}
+.container .slide-container .slide{
+	display: inline-block;
+	margin-right: -4px;
+	vertical-align: top;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: 20%;
+}
